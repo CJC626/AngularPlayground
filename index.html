@@ -1,8 +1,9 @@
 <!doctype>
 <html>
+
 <head>
     <base href="/">
-    <title>Angular 2 Boilerplate</title>
+    <title>Angular 2 Playground</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 1. Load libraries -->
     <!-- Polyfill(s) for older browsers -->
@@ -19,12 +20,15 @@
     <link rel="stylesheet" href="src/css/app.css">
 
 </head>
-<body>
-<my-app>Loading...</my-app>
 
-<script>
-    System.import('app').catch(function(err){ console.error(err);  });
-</script>
-<!--<script src="app/bundle.js"></script>-->
+<body>
+    <my-app>Loading...</my-app>
+
+    <script>
+        System.import('app').catch(function (err) { console.error(err); });
+
+    </script>
+    <!--<script src="app/bundle.js"></script>-->
 </body>
+
 </html>
